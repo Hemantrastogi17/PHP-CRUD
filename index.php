@@ -2,8 +2,8 @@
 $insert = false;
 $update = false;
 $delete = false;
-$servername = "C5Tgz3p1EG";
-$username = "remotemysql.com";
+$servername = "remotemysql.com";
+$username = "C5Tgz3p1EG";
 $password = "VVxkmvu5gO";
 $database = "C5Tgz3p1EG";
 
