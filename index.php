@@ -87,7 +87,7 @@ else{
             <span aria-hidden="true">×</span>
           </button>
         </div>
-        <form action="/CRUD/index.php" method="POST">
+        <form action="/index.php" method="POST">
           <div class="modal-body">
             <input type="hidden" name="snoEdit" id="snoEdit">
             <div class="form-group">
@@ -110,7 +110,7 @@ else{
   </div>
 
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="#"><img src="/crud/logo.svg" height="28px" alt=""></a>
+    <a class="navbar-brand" href="#"><img src="/logo.svg" height="28px" alt=""></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -168,7 +168,7 @@ else{
   ?>
   <div class="container my-4">
     <h2>Add a Note to iNotes</h2>
-    <form action="/CRUD/index.php" method="POST">
+    <form action="/index.php" method="POST">
       <div class="form-group">
         <label for="title">Note Title</label>
         <input type="text" class="form-control" id="title" name="title" aria-describedby="emailHelp">
@@ -258,7 +258,7 @@ else{
 
         if (confirm("Are you sure you want to delete this note!")) {
           console.log("yes");
-          window.location = `/CRUD/index.php?delete=${sno}`;
+          window.location = `/index.php?delete=${sno}`;
         }
         else {
           console.log("no");
